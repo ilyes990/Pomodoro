@@ -84,6 +84,9 @@ class _PomodoroState extends State<Pomodoro> {
             progressColor: Color.fromARGB(255, 255, 85, 113),
             backgroundColor: Colors.grey,
           ),
+          SizedBox(
+            height: 25,
+          ),
           isRunning
               ? Row(
                   mainAxisAlignment: MainAxisAlignment.center,
